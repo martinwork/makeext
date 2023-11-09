@@ -24,7 +24,7 @@ namespace custom {
      */
     //% block
     export function foo(n: number, s: string, e: MyEnum): void {
-        // Add code here
+        basic.showNumber(n)
     }
 
     /**
