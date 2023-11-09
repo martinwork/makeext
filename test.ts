@@ -1,4 +1,1 @@
-custom.foo(5, "Hello", MyEnum.One)
-basic.forever(function () {
-    custom.foo(4, "Hello", MyEnum.One)
-})
+// tests go here; this will not be compiled when this package is used as an extension.
