@@ -1,20 +1,10 @@
 
-/**
-* Use this file to define custom functions and blocks.
-* Read more at https://makecode.microbit.org/blocks/custom
-*/
-
 enum MyEnum {
     //% block="one"
     One,
     //% block="two"
     Two
 }
-
-/**
- * Custom blocks
- */
-//% weight=100 color=#0fbc11 icon=""
 namespace custom {
     /**
      * TODO: describe your function here
@@ -33,6 +23,6 @@ namespace custom {
      */
     //% block
     export function fib(value: number): number {
-        return value <= 1 ? value : fib(value -1) + fib(value - 2);
+        return value <= 1 ? value : fib(value - 1) + fib(value - 2);
     }
 }
