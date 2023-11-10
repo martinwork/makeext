@@ -1,10 +1,19 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><comment id=";/W)sQjY3+J`(0vmwe2d" data="0" x="0" y="0" h="360" w="340">custom.foo(0, "Hello", MyEnum.One)
+<xml xmlns="https://developers.google.com/blockly/xml"><comment id=":6Hy%JHgM)c@a]2h{-#%" data="0" x="0" y="0" h="360" w="340">custom.foo(0, "Hello", MyEnum.One)
+
 main.ts
+
 basic.forever(function () {
+
 custom.foo(1, "Hello", MyEnum.One)
+
 custom.foo(2, "Hello", MyEnum.One)
+
 })
+
 basic.forever(function () {
+
 custom.foo(3, "Hello", MyEnum.One)
+
 custom.foo(4, "Hello", MyEnum.One)
-})</comment><block type="pxt-on-start" id="+z?Dhr?)Nv?sb[I94UmZ" x="10" y="10"></block></xml>
+
+})</comment><block type="pxt-on-start" id="?:4jy*w:VSy_jvCI0Rs$" x="10" y="10"></block></xml>
